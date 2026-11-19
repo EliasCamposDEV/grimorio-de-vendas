@@ -1,9 +1,13 @@
-# Automação e Análise de Vendas
+# Grimório de Vendas
 
-[![CI](https://github.com/EliasCamposDEV/automacao-vendas/actions/workflows/ci.yml/badge.svg)](https://github.com/EliasCamposDEV/automacao-vendas/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/github/license/EliasCamposDEV/automacao-vendas)](LICENSE)
+[![CI](https://github.com/EliasCamposDEV/grimorio-de-vendas/actions/workflows/ci.yml/badge.svg)](https://github.com/EliasCamposDEV/grimorio-de-vendas/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/github/license/EliasCamposDEV/grimorio-de-vendas)](LICENSE)
 
 Toolkit em Python 3.11+ para organizar arquivos e analisar vendas, gerando relatório Excel com gráficos.
+
+O nome vem de RPG: o grimório é o livro onde o feitiço vira resultado. Aqui ele transforma CSV sujo em KPIs e relatório — sem planilha na mão.
+
+Depois de instalar, o comando `grimorio` fica disponível (o módulo `toolkit` continua valendo para `python -m toolkit`).
 
 ## Instalar
 
@@ -62,7 +66,7 @@ Remove linhas com data inválida/vazia, quantidade ou preço <= 0, campos obriga
 ## Estrutura
 
 ```
-automacao-vendas/
+grimorio-de-vendas/
 ├── data/vendas.csv
 ├── scripts/gerar_dados_exemplo.py
 ├── toolkit/          # loader, analysis, report, organizer, cli
