@@ -5,7 +5,7 @@
 
 Toolkit em Python 3.11+ para organizar arquivos e analisar vendas, gerando relatório Excel com gráficos.
 
-O nome vem de RPG: o grimório é o livro onde o feitiço vira resultado. Aqui ele transforma CSV sujo em KPIs e relatório — sem planilha na mão.
+O nome vem de RPG: o grimório é o livro onde o feitiço vira resultado. Aqui ele transforma CSV sujo em KPIs e relatório, sem planilha na mão.
 
 Depois de instalar, o comando `grimorio` fica disponível (o módulo `toolkit` continua valendo para `python -m toolkit`).
 
